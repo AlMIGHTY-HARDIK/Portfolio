@@ -54,8 +54,12 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Blockchain Developer",
+    icon: backend,
+  },
+  {
+    title: "Data Science",
+    icon: backend,
   },
 ];
 
@@ -116,55 +120,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Data Scientist Virtual Internship",
+    company_name: "J.P. Morgan",
+    icon: "https://1000logos.net/wp-content/uploads/2020/04/J.P.-Morgan-Chase-Logo-500x281.png",
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "September 2023 - On going",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Established a robust stock price data feed interface and orchestrated the seamless integration of a cutting edge system for real time analysis of financial data, resulting in a 30% reduction in data latency.",
+      "Achieved a remarkable 60% enhancement in model accuracy within the demanding JP Morgan environment, elevating accuracy levels from a previous range of 10‑15% to a consistent 70‑78%.",
+      "This transformation empowered data driven decision making and significantly bolstered predictive capabilities, ultimately contributing to a 25% increase in investment profitability.",
+      " This enhancement facilitated quicker decision making and provided traders and investors with critical insights, contributing to a 20% improvement in trading performance.",
     ],
   },
 ];
@@ -172,7 +137,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Hardik proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +145,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Hardik does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,7 +153,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Hardik optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -198,12 +163,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Calm Mind",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "CalmMind is a web app that analyses the psychological and mental health conditions of an individual and provide solutions to the problems. CalmMind is a mental health solution that aims to provide users with easy access to resources related to mental wellbeing.",
     tags: [
       {
-        name: "react",
+        name: "flask",
         color: "blue-text-gradient",
       },
       {
@@ -215,50 +180,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: "https://user-images.githubusercontent.com/78292851/188284903-1e3ee4db-0612-4ab0-b463-b7be8c920c63.png",
+    source_code_link: "https://github.com/AlMIGHTY-HARDIK/CalmMind",
   },
   {
-    name: "Job IT",
+    name: "Bank Management System",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The Command Line Bank Management System in C is a comprehensive and user-friendly software solution designed to streamline and automate various banking operations, making it an indispensable tool for both bank employees and customers. This project is built entirely in the C programming language and provides a robust, efficient, and secure platform for managing banking tasks through a command-line interface (CLI).",
     tags: [
       {
-        name: "react",
+        name: "C/C++",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "MySql",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "command line app",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: "https://www.gitkraken.com/wp-content/uploads/2022/02/CLI-stands-forHero-1024x512.png.webp",
+    source_code_link: "https://github.com/AlMIGHTY-HARDIK/Bank-Management-System-in-C",
   },
   {
-    name: "Trip Guide",
+    name: "DragGAN",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "PyTorch",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Hugging Face",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "cuda",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: "https://dragganaitool.com/wp-content/uploads/2023/06/DragGAN-AI-add-points-1024x536.png",
+    source_code_link: "https://github.com/AlMIGHTY-HARDIK/DragGAN",
   },
 ];
 
